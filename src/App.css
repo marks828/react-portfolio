@@ -79,6 +79,13 @@ a{
 
 /*ABOUT END*/
 
+/*RESUME*/
+.resume{
+  margin: 25px 0;
+}
+
+/*RESUME*/
+
 /*PROJECT START*/
 .project-nav{
   display: flex;

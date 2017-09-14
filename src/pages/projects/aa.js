@@ -9,7 +9,7 @@ class Aa extends Component{
         <div className="project-description">
           <h2 className="project-name">FeedMe</h2>
           <p>Find a restaurant near you!</p>
-          <p className="code"><Link to="#">Site</Link> | <Link to="#">Github</Link></p>
+          <p className="code"><Link to="https://vimeo.com/118619200" target="_blank">Site</Link></p>
         </div>
       </div>
     )
