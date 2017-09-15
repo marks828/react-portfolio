@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../App.css';
 import Skills from './skills/skills.js'
+import Design from './skills/design.js'
 
 
 class About extends Component{
@@ -17,7 +18,10 @@ class About extends Component{
 
         <hr className="about-hr" />
 
+        <h2>Dev Skills</h2>
         <Skills />
+        <h2>Design Skills</h2>
+        <Design />
       </div>
     )
   }

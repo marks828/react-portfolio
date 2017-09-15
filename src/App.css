@@ -62,7 +62,8 @@ a{
 
 .about-container{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
 }
 
 .headshot{
@@ -86,9 +87,15 @@ a{
 }
 
 /*skills staart*/
+.skills-container, .design-container{
+  display: flex;
+  justify-content: space-between;
+
+}
 .skills-img{
   width: 10%;
   height: auto;
+  align-self: center;
 }
 
 /*skills end*/
@@ -115,6 +122,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .project-image{
@@ -142,7 +150,6 @@ a{
     flex-direction: row;
   }
 
-
   .nav a{
     margin: 0 15px;
     justify-content: space-between;
@@ -155,6 +162,13 @@ a{
   .site-logo{
     margin-left: auto;
   }
+
+  /*ABOUT START*/
+  .about-container{
+    flex-direction: row;
+  }
+  /*ABOUT END*/
+
   /*PROJECTS START*/
   .projects{
     justify-content: center;
