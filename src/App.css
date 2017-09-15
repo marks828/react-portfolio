@@ -27,6 +27,9 @@ a{
   flex-direction: column-reverse;
   text-align: center;
   margin-top: 15px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid lightblue;
+
 }
 
 .nav{
@@ -59,7 +62,6 @@ a{
 
 .about-container{
   display: flex;
-  margin-top: 2rem;
   justify-content: space-between;
 }
 
@@ -94,9 +96,7 @@ a{
 /*ABOUT END*/
 
 /*RESUME*/
-.resume{
-  margin: 25px 0;
-}
+
 
 /*RESUME*/
 
@@ -104,7 +104,7 @@ a{
 .project-nav{
   display: flex;
   justify-content: flex-end;
-  margin: 2rem 0;
+  margin-bottom: 20px;
 }
 
 .project-name{
@@ -142,9 +142,6 @@ a{
     flex-direction: row;
   }
 
-  .header{
-    border-bottom: 1px solid lightblue;
-  }
 
   .nav a{
     margin: 0 15px;
@@ -160,17 +157,36 @@ a{
   }
   /*PROJECTS START*/
   .projects{
-    flex-direction: row;
     justify-content: center;
+    position: relative;
   }
+
+  .projects:before{
+    content: '';
+    background:rgba(0,0,0,0.75);
+    width:33%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right:0;
+  }
+
   .project-image{
-    width: 65%;
-    height: 300px;
+    width: 100%;
+    height: auto;
   }
   .project-description{
-    width: 35%;
-    height:300px;
-    /*display: none;*/
+    width: 33%;
+    height:100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top:10%;
+    left: 66%;
+  }
+
+  .code, .code a{
+    color: white;
   }
   /*PROJECTS END*/
 }
