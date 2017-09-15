@@ -41,41 +41,54 @@ a{
 
 /*HOME START*/
 
-  .home-heading{
-    text-align: center;
-    font-size: 24pt;
-  }
+.home-heading{
+  text-align: center;
+  font-size: 24pt;
+}
 
-  .home-photo{
-    width:650px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
+.home-photo{
+  width:650px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /*HOME END*/
 
 /*ABOUT START*/
 
-  .about-container{
-    display: flex;
-    padding: 15px;
-    justify-content: space-between;
-  }
+.about-container{
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
 
-  .headshot{
-    width: auto;
-    height:350px;
-  }
+.headshot{
+  width: auto;
+  height:350px;
+}
 
-  .about-paragraph{
-    margin-left: 5%;
-    font-size: 20pt;
-  }
+.about-paragraph{
+  margin-left: 5%;
+  font-size: 20pt;
+}
 
-  .about-hr{
-    margin: 30px 0;
-  }
+.about-hr{
+  margin: 30px 0;
+}
+
+.about-hr{
+  width: 100%;
+  color: black;
+}
+
+/*skills staart*/
+.skills-img{
+  width: 10%;
+  height: auto;
+}
+
+/*skills end*/
 
 /*ABOUT END*/
 
