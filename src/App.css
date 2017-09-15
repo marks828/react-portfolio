@@ -59,13 +59,14 @@ a{
 
 .about-container{
   display: flex;
-  padding: 15px;
+  margin-top: 2rem;
   justify-content: space-between;
 }
 
 .headshot{
   width: auto;
   height:350px;
+  border-radius: 10px;
 }
 
 .about-paragraph{
