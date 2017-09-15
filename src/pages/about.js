@@ -18,9 +18,9 @@ class About extends Component{
 
         <hr className="about-hr" />
 
-        <h2>Dev Skills</h2>
+        <h2 className="skills-header">Dev Skills</h2>
         <Skills />
-        <h2>Design Skills</h2>
+        <h2 className="skills-header">Design Skills</h2>
         <Design />
       </div>
     )
