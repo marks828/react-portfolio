@@ -64,6 +64,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .headshot{
@@ -84,6 +85,21 @@ a{
 .about-hr{
   width: 100%;
   color: black;
+}
+
+.contact-p{
+  font-size: 20pt;
+  margin-left: 5%;
+}
+
+.contact-link, .email{
+  color: darkblue;
+  font-weight: bold;
+  display: inline;
+}
+
+.contact-link:hover{
+  color:orange;
 }
 
 /*skills staart*/
@@ -183,6 +199,7 @@ a{
 
   /*PROJECTS START*/
   .projects{
+    flex-direction: column-reverse;
     justify-content: center;
     position: relative;
   }
@@ -202,7 +219,7 @@ a{
     height: auto;
   }
   .project-description{
-    width: 35%;
+    width: 90%;
     height:100px;
     background-color: rgba(0, 0, 0, 0);
     /*position: absolute;
