@@ -7,9 +7,9 @@ class Boi extends Component{
     return(
       <div className="projects">
         <img src={require("../../img/boi.png")} alt="" className="project-image" />
-        <div className="project-description">
-          <h2 className="project-name">BOI</h2>
-          <p>{boiDescription}</p>
+        <div className="project-info">
+          <h2 className="project-title">BOI</h2>
+          <p className="project-description">{boiDescription}</p>
           <p className="code"><Link to="https://marks828.github.io/boi/" target="_blank">Site</Link> | <Link to="https://github.com/marks828/boi" target="_blank">Github</Link></p>
         </div>
       </div>

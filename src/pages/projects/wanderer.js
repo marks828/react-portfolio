@@ -7,9 +7,9 @@ class Wanderer extends Component{
     return(
       <div className="projects">
         <img src={require("../../img/persona.png")} alt="" className="project-image" />
-        <div className="project-description">
-          <h2 className="project-name">Wanderer</h2>
-          <p>{wandererDescription}</p>
+        <div className="project-info">
+          <h2 className="project-title">Wanderer</h2>
+          <p className="project-description">{wandererDescription}</p>
           <p className="code"><Link to="https://marks828.github.io/wanderer" target="_blank">Site</Link> | <Link to="https://github.com/marks828/wanderer" target="_blank">Github</Link></p>
         </div>
       </div>

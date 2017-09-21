@@ -7,9 +7,9 @@ class Simpsons extends Component{
     return(
       <div className="projects">
         <img src={require("../../img/simpsons.png")} alt="" className="project-image" />
-        <div className="project-description">
-          <h2 className="project-name">Simpsons Trivia</h2>
-          <p>{simpsonsDescription}</p>
+        <div className="project-info">
+          <h2 className="project-title">Simpsons Trivia</h2>
+          <p className="project-description">{simpsonsDescription}</p>
           <p className="code"><Link to="https://marks828.github.io/project1/" target="_blank">Site</Link> | <Link to="https://github.com/marks828/project1" target="_blank">Github</Link></p>
         </div>
       </div>

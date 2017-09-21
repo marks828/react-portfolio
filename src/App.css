@@ -28,7 +28,7 @@ a{
   text-align: center;
   margin-top: 15px;
   margin-bottom: 2rem;
-  border-bottom: 5px solid #00AEEF;
+  border-bottom: 2px solid #00AEEF;
 
 }
 
@@ -166,10 +166,9 @@ a{
   background-size: cover;
 }
 
-.project-description{
+.project-info{
   display: flex;
   flex-direction: column;
-  align-content: center;
   justify-content: center;
   width: 75%;
   height:100px;
@@ -219,31 +218,43 @@ a{
     position: relative;
   }
 
-  /*.projects:before{
-    content: '';
-    background:rgba(0,0,0,0.75);
-    width:33%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right:0;
-  }*/
-
   .project-image{
     width: 100%;
     height: auto;
   }
-  .project-description{
-    width: 90%;
-    height:100px;
-    background-color: rgba(0, 0, 0, 0);
-    /*position: absolute;
-    top:10%;
-    left: 66%;*/
+
+  .project-title, .project-description{
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
-  /*.code, .code a{
-    color: white;
-  }*/
+  .project-title{
+    font-size: 30pt;
+    text-align: center;
+  }
+
+  .code{
+    text-align: center;
+  }
+
+  .code a{
+    color: #00AEEF;
+    font-weight: bold;
+  }
+
+  .code a:hover{
+    color:orange;
+  }
+
+  .project-description, .code{
+    font-size: 20pt;
+  }
+
+  .project-info{
+    width: 90%;
+    height:auto;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: inherit;
+  }
   /*PROJECTS END*/
 }
