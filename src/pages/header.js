@@ -16,7 +16,7 @@ class Header extends Component{
           <NavLink to="/projects"><li className="nav-item">Projects</li></NavLink>
           <NavLink to="/contact"><li className="nav-item">Contact</li></NavLink>
         </ul>
-        <h2 className="site-logo"><NavLink exact to="/">Mark Sweet</NavLink></h2>
+        <h2 className="site-logo nav-item"><NavLink exact to="/">Mark Sweet</NavLink></h2>
       </header>
     )
   }
