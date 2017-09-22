@@ -149,6 +149,10 @@ a{
   margin-bottom: 20px;
 }
 
+.project-nav li{
+  margin-bottom: 20px;
+}
+
 .project-name{
   margin: 0 15px;
 }
@@ -230,6 +234,9 @@ a{
 
   .project-nav{
     justify-content: flex-end;
+  }
+  .project-nav li{
+    margin-bottom: 0;
   }
 
   .project-image{
