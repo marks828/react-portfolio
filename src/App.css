@@ -144,7 +144,8 @@ a{
 /*PROJECT START*/
 .project-nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -225,6 +226,10 @@ a{
     flex-direction: column-reverse;
     justify-content: center;
     position: relative;
+  }
+
+  .project-nav{
+    justify-content: flex-end;
   }
 
   .project-image{
