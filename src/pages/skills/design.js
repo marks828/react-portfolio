@@ -5,6 +5,8 @@ class Design extends Component{
     return(
       <div className="skills-container">
         <img src={require("../../img/devimg/sketch.png")} alt="" className="skills-img" />
+        <img src={require("../../img/devimg/photoshop.png")} alt="" className="skills-img" />
+        <img src={require("../../img/devimg/illustrator.svg")} alt="" className="skills-img" />
         <img src={require("../../img/devimg/balsamiq.png")} alt="" className="skills-img" />
         <img src={require("../../img/devimg/invision.png")} className="skills-img" />
       </div>
