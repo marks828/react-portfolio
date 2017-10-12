@@ -225,6 +225,22 @@ a{
   }
   /*ABOUT END*/
 
+  /*RESUME START*/
+  /*.res_download{
+    position: fixed;
+    width: 75px;
+    height: 75px;
+    bottom:25px;
+    right:50px;
+    background: grey;
+    border-radius: 100%
+  }*/
+
+  .resume{
+    margin-bottom: 50px;
+  }
+  /*RESUME END*/
+
   /*PROJECTS START*/
   .projects{
     flex-direction: column-reverse;
