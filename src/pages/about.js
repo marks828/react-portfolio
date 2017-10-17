@@ -9,8 +9,6 @@ import AboutSection from './about/aboutContent.js'
 
 class About extends Component{
   render(){
-    const github = <a href="https://github.com/marks828" target="_blank">Github</a>
-
 
     return(
       <div>
