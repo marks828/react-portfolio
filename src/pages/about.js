@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import '../App.css';
 import Skills from './skills/skills.js'
 import Design from './skills/design.js'
-import {Link} from 'react-router-dom'
 import Contact from './contact.js'
 import AboutSection from './about/aboutContent.js'
 

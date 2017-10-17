@@ -3,7 +3,6 @@ import './App.css';
 import {
   BrowserRouter,
   Route,
-  Link
 } from 'react-router-dom'
 import Header from './pages/header.js'
 import Home from './pages/home.js'
