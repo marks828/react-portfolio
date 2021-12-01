@@ -5,11 +5,9 @@ import {
   Route,
 } from 'react-router-dom'
 import Header from './pages/header.js'
-import Home from './pages/home.js'
 import Resume from './pages/resume.js'
 import About from './pages/about.js'
 import Projects from './pages/projects.js'
-import Contact from './pages/contact.js'
 
 class App extends Component {
   render() {
